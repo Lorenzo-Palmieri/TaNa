@@ -1,5 +1,5 @@
 # TaNa
-C++ implementation of the Tangle Nature Model 
+C++ implementation of the Tangled Nature Model 
 
 Please cite using the following DOI:
 
