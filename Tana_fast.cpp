@@ -5,6 +5,17 @@
 //  Created by Lorenzo Palmieri on 05/01/17.
 //
 //
+// The code outputs 3 files:
+//
+// 1) data.txt contains the time and the population at a given time t [# of generations]. 
+// 2) species.txt contains the labels of the active species at t.
+// 3) complete.txt contains the number of individuals belonging to the labels in species.txt at t. 
+//
+// Please note that if you want to change the length of the genome L, you have to manually change "genomes" accordingly.
+
+// With respect to the classical TaNa model, there is an additional parameter, K. (See C.W. Andersen and P. Sibani, Phys. Rev. E 93, 052410)
+// If K=1 you have the standard TaNa model. 
+// For integer values of K such that rem(L/K)==0, you introduce correlations in the interaction matrix, J. 
 
 #include "Tana+.hpp" // Include all libraries.
 using namespace std; // avoid using std:: along the code.
